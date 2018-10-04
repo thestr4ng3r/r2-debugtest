@@ -19,6 +19,6 @@ test-child: tracee
 	@echo "+++++++++++++++++++++++++++++++++++++++++++++++++"
 
 test-attach: tracee
-	@echo "++++++++++++ TEST WITH CHILD PROCESS ++++++++++++"
+	@echo "+++++++++++++++ TEST WITH ATTACH ++++++++++++++++"
 	./tracee & r2 -d $$! -qi test.r2
 	@echo "+++++++++++++++++++++++++++++++++++++++++++++++++"
